@@ -1,0 +1,8 @@
+# Requirements for the Logistic Regression Jupyter Notebook Project
+
+numpy>=1.18.5         # Fundamental package for numerical computations
+pandas>=1.0.5         # Data manipulation and analysis
+matplotlib>=3.2.2     # Plotting and visualization
+seaborn>=0.10.1       # Statistical data visualization (built on matplotlib)
+scikit-learn>=0.23.1  # Machine learning algorithms and tools
+jupyter               # Interactive notebook environment
