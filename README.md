@@ -92,8 +92,8 @@ Logistic Regression/
 ## 💻 Usage
 1. **📥 Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd <project-directory>
+   git clone https://github.com/EvanGks/logistic-regression-breast-cancer.git
+   cd logistic-regression-breast-cancer
    ```
 2. **🔒 Create and activate a virtual environment:**
    - **Windows:**
