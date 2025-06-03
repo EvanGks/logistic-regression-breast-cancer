@@ -51,7 +51,10 @@ Logistic Regression/
 ├── README.md                   # Project documentation (this file)
 ├── requirements.txt            # Python dependencies
 ├── LICENSE                     # MIT License file
-└── .venv/                      # (Optional) Virtual environment directory
+├── figure/                     # Folder with result images
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   └── decision_boundary_on_pca_transformed_data.png
 ```
 ---
 
@@ -123,27 +126,32 @@ Logistic Regression/
 ---
 
 ## 📊 Results
-### Model Metrics
-- **Accuracy:** ~0.97
-- **Precision:** ~0.97
-- **Recall:** ~0.98
-- **F1-Score:** ~0.97
-- **ROC-AUC:** ~0.99
+### Model Evaluation Metrics
+- **Accuracy:** 0.9737
+- **Precision:** 0.9722
+- **Recall:** 0.9859
+- **F1-Score:** 0.9790
+- **ROC-AUC:** 0.9974
 
-### Feature Importance
-Top predictors (by absolute coefficient):
-- Worst perimeter
-- Mean concave points
-- Worst concave points
-- Worst radius
-- Worst area
+### Classification Report
+```
+              precision    recall  f1-score   support
+
+           0       0.98      0.95      0.96        43
+           1       0.97      0.99      0.98        71
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+```
 
 ### Visualizations
-- **Histograms:** Distribution of selected features
-- **Correlation Heatmap:** Feature relationships
-- **Confusion Matrix:** Model performance
-- **ROC Curve:** Classification quality
-- **PCA Decision Boundary:** 2D visualization of model separation
+- **Confusion Matrix:**
+  ![Confusion Matrix](figure/confusion_matrix.png)
+- **ROC Curve:**
+  ![ROC Curve](figure/roc_curve.png)
+- **PCA Decision Boundary:**
+  ![Decision Boundary on PCA-transformed Data](figure/decision_boundary_on_pca_transformed_data.png)
 
 *All plots include descriptive titles, axis labels, and alt text for accessibility.*
 
@@ -176,6 +184,7 @@ For questions or feedback, please reach out via:
 - **GitHub:** [EvanGks](https://github.com/EvanGks)
 - **X (Twitter):** [@Evan6471133782](https://x.com/Evan6471133782)
 - **LinkedIn:** [Evangelos Gakias](https://www.linkedin.com/in/evangelos-gakias-346a9072)
+- **Kaggle:** [evangelosgakias](https://www.kaggle.com/evangelosgakias)
 - **Email:** [vgakias_@hotmail.com](mailto:vgakias_@hotmail.com)
 
 ---
